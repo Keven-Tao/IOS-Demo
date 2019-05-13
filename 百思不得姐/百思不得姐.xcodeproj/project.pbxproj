@@ -13,7 +13,6 @@
 		5A46FED922895382004F1AC2 /* MSFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A46FED722895382004F1AC2 /* MSFriendTrendsViewController.xib */; };
 		5A46FEDC2289539A004F1AC2 /* MSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A46FEDB2289539A004F1AC2 /* MSMeViewController.m */; };
 		5A528BB6228545F600837C4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A528BB5228545F600837C4E /* AppDelegate.m */; };
-		5A528BB9228545F600837C4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A528BB8228545F600837C4E /* ViewController.m */; };
 		5A528BBE228545F700837C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A528BBD228545F700837C4E /* Assets.xcassets */; };
 		5A528BC4228545F700837C4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A528BC3228545F700837C4E /* main.m */; };
 		5A528BE3228589ED00837C4E /* MSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A528BE2228589ED00837C4E /* MSTabBarController.m */; };
@@ -29,11 +28,10 @@
 		5A46FED722895382004F1AC2 /* MSFriendTrendsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		5A46FEDA2289539A004F1AC2 /* MSMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMeViewController.h; sourceTree = "<group>"; };
 		5A46FEDB2289539A004F1AC2 /* MSMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSMeViewController.m; sourceTree = "<group>"; };
+		5A46FEDD22895668004F1AC2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5A528BB1228545F600837C4E /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A528BB4228545F600837C4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A528BB5228545F600837C4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5A528BB7228545F600837C4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5A528BB8228545F600837C4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5A528BBD228545F700837C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A528BC2228545F700837C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A528BC3228545F700837C4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				5A528BCA2285855A00837C4E /* Classes */,
-				5A528BB7228545F600837C4E /* ViewController.h */,
-				5A528BB8228545F600837C4E /* ViewController.m */,
 				5A528BBD228545F700837C4E /* Assets.xcassets */,
 				5A528BC2228545F700837C4E /* Info.plist */,
 			);
@@ -88,9 +84,6 @@
 				5A528BCD2285858A00837C4E /* FriendTrends-关注 */,
 				5A528BCE2285859C00837C4E /* Me-我 */,
 				5A528BCF228585A500837C4E /* Other-其它 */,
-				5A528BB4228545F600837C4E /* AppDelegate.h */,
-				5A528BB5228545F600837C4E /* AppDelegate.m */,
-				5A528BC3228545F700837C4E /* main.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -141,6 +134,10 @@
 				5A528BDE228586DD00837C4E /* Controller */,
 				5A528BDD228586D900837C4E /* View */,
 				5A528BDC228586B800837C4E /* Categroy */,
+				5A528BB4228545F600837C4E /* AppDelegate.h */,
+				5A528BB5228545F600837C4E /* AppDelegate.m */,
+				5A528BC3228545F700837C4E /* main.m */,
+				5A46FEDD22895668004F1AC2 /* PrefixHeader.pch */,
 			);
 			path = "Other-其它";
 			sourceTree = "<group>";
@@ -332,7 +329,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A46FEDC2289539A004F1AC2 /* MSMeViewController.m in Sources */,
-				5A528BB9228545F600837C4E /* ViewController.m in Sources */,
 				5A46FED422895367004F1AC2 /* MSNewViewController.m in Sources */,
 				5A46FED822895382004F1AC2 /* MSFriendTrendsViewController.m in Sources */,
 				5A528BC4228545F700837C4E /* main.m in Sources */,
