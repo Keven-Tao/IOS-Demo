@@ -12,6 +12,8 @@
 		5A46FED822895382004F1AC2 /* MSFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A46FED622895382004F1AC2 /* MSFriendTrendsViewController.m */; };
 		5A46FED922895382004F1AC2 /* MSFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A46FED722895382004F1AC2 /* MSFriendTrendsViewController.xib */; };
 		5A46FEDC2289539A004F1AC2 /* MSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A46FEDB2289539A004F1AC2 /* MSMeViewController.m */; };
+		5A46FEE12289625C004F1AC2 /* UIBarButtonItem+MSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A46FEE02289625C004F1AC2 /* UIBarButtonItem+MSCategory.m */; };
+		5A46FEE4228963D1004F1AC2 /* UIView+MSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A46FEE3228963D1004F1AC2 /* UIView+MSCategory.m */; };
 		5A528BB6228545F600837C4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A528BB5228545F600837C4E /* AppDelegate.m */; };
 		5A528BBE228545F700837C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A528BBD228545F700837C4E /* Assets.xcassets */; };
 		5A528BC4228545F700837C4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A528BC3228545F700837C4E /* main.m */; };
@@ -29,6 +31,10 @@
 		5A46FEDA2289539A004F1AC2 /* MSMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMeViewController.h; sourceTree = "<group>"; };
 		5A46FEDB2289539A004F1AC2 /* MSMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSMeViewController.m; sourceTree = "<group>"; };
 		5A46FEDD22895668004F1AC2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5A46FEDF2289625C004F1AC2 /* UIBarButtonItem+MSCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MSCategory.h"; sourceTree = "<group>"; };
+		5A46FEE02289625C004F1AC2 /* UIBarButtonItem+MSCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MSCategory.m"; sourceTree = "<group>"; };
+		5A46FEE2228963D1004F1AC2 /* UIView+MSCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MSCategory.h"; sourceTree = "<group>"; };
+		5A46FEE3228963D1004F1AC2 /* UIView+MSCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MSCategory.m"; sourceTree = "<group>"; };
 		5A528BB1228545F600837C4E /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A528BB4228545F600837C4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A528BB5228545F600837C4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -238,6 +244,10 @@
 		5A528BDC228586B800837C4E /* Categroy */ = {
 			isa = PBXGroup;
 			children = (
+				5A46FEDF2289625C004F1AC2 /* UIBarButtonItem+MSCategory.h */,
+				5A46FEE02289625C004F1AC2 /* UIBarButtonItem+MSCategory.m */,
+				5A46FEE2228963D1004F1AC2 /* UIView+MSCategory.h */,
+				5A46FEE3228963D1004F1AC2 /* UIView+MSCategory.m */,
 			);
 			path = Categroy;
 			sourceTree = "<group>";
@@ -334,6 +344,8 @@
 				5A528BC4228545F700837C4E /* main.m in Sources */,
 				5A528BB6228545F600837C4E /* AppDelegate.m in Sources */,
 				5A528BE3228589ED00837C4E /* MSTabBarController.m in Sources */,
+				5A46FEE12289625C004F1AC2 /* UIBarButtonItem+MSCategory.m in Sources */,
+				5A46FEE4228963D1004F1AC2 /* UIView+MSCategory.m in Sources */,
 				5A46FED122895342004F1AC2 /* MSEssenceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +472,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M799395HSW;
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other-其它/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -478,6 +491,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M799395HSW;
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other-其它/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
