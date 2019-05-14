@@ -7,6 +7,7 @@
 //
 
 #import "MSFriendTrendsViewController.h"
+#import "MSRecommendViewController.h"
 
 @interface MSFriendTrendsViewController ()
 
@@ -29,8 +30,8 @@
 
 - (void)friendsClick
 {
-//    XMGRecommendViewController *vc = [[XMGRecommendViewController alloc] init];
-//    [self.navigationController pushViewController:vc animated:YES];
+    MSRecommendViewController *vc = [[MSRecommendViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

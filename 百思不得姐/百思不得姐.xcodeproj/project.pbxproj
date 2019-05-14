@@ -18,9 +18,14 @@
 		5A528BBE228545F700837C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A528BBD228545F700837C4E /* Assets.xcassets */; };
 		5A528BC4228545F700837C4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A528BC3228545F700837C4E /* main.m */; };
 		5A528BE3228589ED00837C4E /* MSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A528BE2228589ED00837C4E /* MSTabBarController.m */; };
+		5AA905D6228A990C00A05ED4 /* MSRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA905D4228A990C00A05ED4 /* MSRecommendViewController.m */; };
+		5AA905D7228A990C00A05ED4 /* MSRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA905D5228A990C00A05ED4 /* MSRecommendViewController.xib */; };
+		5AA905DA228AA1EE00A05ED4 /* MSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA905D9228AA1EE00A05ED4 /* MSNavigationController.m */; };
+		B562664ACEBDBE4BF2B4449D /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C12ACC96A0CFC74ADA29D9B /* libPods-百思不得姐.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C12ACC96A0CFC74ADA29D9B /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A46FECF22895342004F1AC2 /* MSEssenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MSEssenceViewController.h; path = "百思不得姐/Classes/Essence-精华/Controller/MSEssenceViewController.h"; sourceTree = SOURCE_ROOT; };
 		5A46FED022895342004F1AC2 /* MSEssenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MSEssenceViewController.m; path = "百思不得姐/Classes/Essence-精华/Controller/MSEssenceViewController.m"; sourceTree = SOURCE_ROOT; };
 		5A46FED222895367004F1AC2 /* MSNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSNewViewController.h; sourceTree = "<group>"; };
@@ -43,6 +48,13 @@
 		5A528BC3228545F700837C4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A528BE1228589ED00837C4E /* MSTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTabBarController.h; sourceTree = "<group>"; };
 		5A528BE2228589ED00837C4E /* MSTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTabBarController.m; sourceTree = "<group>"; };
+		5AA905D3228A990C00A05ED4 /* MSRecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSRecommendViewController.h; sourceTree = "<group>"; };
+		5AA905D4228A990C00A05ED4 /* MSRecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSRecommendViewController.m; sourceTree = "<group>"; };
+		5AA905D5228A990C00A05ED4 /* MSRecommendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSRecommendViewController.xib; sourceTree = "<group>"; };
+		5AA905D8228AA1EE00A05ED4 /* MSNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSNavigationController.h; sourceTree = "<group>"; };
+		5AA905D9228AA1EE00A05ED4 /* MSNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSNavigationController.m; sourceTree = "<group>"; };
+		80A524E390BB730D840F50A4 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
+		A17900E441901F5B14218202 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B562664ACEBDBE4BF2B4449D /* libPods-百思不得姐.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,8 @@
 			children = (
 				5A528BB3228545F600837C4E /* 百思不得姐 */,
 				5A528BB2228545F600837C4E /* Products */,
+				DB720268A02CBA3803AC0E5A /* Pods */,
+				A63D1F1497A236650843FACC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,6 +215,9 @@
 				5A46FED522895382004F1AC2 /* MSFriendTrendsViewController.h */,
 				5A46FED622895382004F1AC2 /* MSFriendTrendsViewController.m */,
 				5A46FED722895382004F1AC2 /* MSFriendTrendsViewController.xib */,
+				5AA905D3228A990C00A05ED4 /* MSRecommendViewController.h */,
+				5AA905D4228A990C00A05ED4 /* MSRecommendViewController.m */,
+				5AA905D5228A990C00A05ED4 /* MSRecommendViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -264,8 +282,27 @@
 			children = (
 				5A528BE1228589ED00837C4E /* MSTabBarController.h */,
 				5A528BE2228589ED00837C4E /* MSTabBarController.m */,
+				5AA905D8228AA1EE00A05ED4 /* MSNavigationController.h */,
+				5AA905D9228AA1EE00A05ED4 /* MSNavigationController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		A63D1F1497A236650843FACC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C12ACC96A0CFC74ADA29D9B /* libPods-百思不得姐.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB720268A02CBA3803AC0E5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A17900E441901F5B14218202 /* Pods-百思不得姐.debug.xcconfig */,
+				80A524E390BB730D840F50A4 /* Pods-百思不得姐.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A528BC7228545F700837C4E /* Build configuration list for PBXNativeTarget "百思不得姐" */;
 			buildPhases = (
+				8F5B15BF190C3E4D66005330 /* [CP] Check Pods Manifest.lock */,
 				5A528BAD228545F600837C4E /* Sources */,
 				5A528BAE228545F600837C4E /* Frameworks */,
 				5A528BAF228545F600837C4E /* Resources */,
+				998929FAA84B9B443385C359 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA905D7228A990C00A05ED4 /* MSRecommendViewController.xib in Resources */,
 				5A46FED922895382004F1AC2 /* MSFriendTrendsViewController.xib in Resources */,
 				5A528BBE228545F700837C4E /* Assets.xcassets in Resources */,
 			);
@@ -333,16 +373,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8F5B15BF190C3E4D66005330 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-百思不得姐-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		998929FAA84B9B443385C359 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A528BAD228545F600837C4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5A46FEDC2289539A004F1AC2 /* MSMeViewController.m in Sources */,
+				5AA905DA228AA1EE00A05ED4 /* MSNavigationController.m in Sources */,
 				5A46FED422895367004F1AC2 /* MSNewViewController.m in Sources */,
 				5A46FED822895382004F1AC2 /* MSFriendTrendsViewController.m in Sources */,
 				5A528BC4228545F700837C4E /* main.m in Sources */,
 				5A528BB6228545F600837C4E /* AppDelegate.m in Sources */,
+				5AA905D6228A990C00A05ED4 /* MSRecommendViewController.m in Sources */,
 				5A528BE3228589ED00837C4E /* MSTabBarController.m in Sources */,
 				5A46FEE12289625C004F1AC2 /* UIBarButtonItem+MSCategory.m in Sources */,
 				5A46FEE4228963D1004F1AC2 /* UIView+MSCategory.m in Sources */,
@@ -467,6 +550,7 @@
 		};
 		5A528BC8228545F700837C4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17900E441901F5B14218202 /* Pods-百思不得姐.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -486,6 +570,7 @@
 		};
 		5A528BC9228545F700837C4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A524E390BB730D840F50A4 /* Pods-百思不得姐.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
